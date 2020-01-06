@@ -112,3 +112,43 @@ input {
   display: flex;
   flex: 1;
 }
+
+@media (max-width: 1440px) {
+  .todoBox {
+    width: 31%;
+  }
+}
+@media (max-width: 1024px) {
+  .todoBox {
+    width: 44%;
+  }
+}
+@media (max-width: 768px) {
+  .todoBox {
+    width: 58%;
+  }
+}
+@media (max-width: 425px) {
+  .todoBox {
+    width: 90%;
+  }
+  .input {
+    width: 283px;
+  }
+}
+@media (max-width: 375px) {
+  .todoBox {
+    width: 90%;
+  }
+  .input {
+    width: 234px;
+  }
+}
+@media (max-width: 320px) {
+  .todoBox {
+    width: 90%;
+  }
+  .input {
+    width: 179px;
+  }
+}

@@ -35,7 +35,7 @@ function TodoForm({ addTodo }) {
   };
 
   return (
-    <div>
+    <div className="todoForm">
       <div className="submitButton">
         <button
           className="butn"
