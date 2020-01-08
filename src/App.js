@@ -36,6 +36,16 @@ function TodoForm({ addTodo }) {
 
   return (
     <div className="todoForm">
+      <div className="form">
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            className="input"
+            value={value}
+            onChange={e => setValue(e.target.value)}
+          />
+        </form>
+      </div>
       <div className="submitButton">
         <button
           className="butn"
@@ -46,16 +56,6 @@ function TodoForm({ addTodo }) {
         >
           +
         </button>
-      </div>
-      <div className="form">
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            className="input"
-            value={value}
-            onChange={e => setValue(e.target.value)}
-          />
-        </form>
       </div>
     </div>
   );
